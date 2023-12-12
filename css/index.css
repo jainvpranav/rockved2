@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+body {
+    background-image: url('../assets/landing/7.jpg');
+    background-size: cover;
+}
+
+.rockved {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    font-size: 8rem;
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    /* transform: translate(-50%); */
+    padding: 1rem;
+}
+
+.line-1{
+    position: absolute;
+    font-family: monospace;
+    top: 50vh;
+    left: 12vw;  
+    width: 11em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    color: white;
+    font-size: 2rem;
+    /* text-align: center; */
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+  }
+  
+  /* Animation */
+  .anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 10.5em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+.launch {
+    cursor: pointer;
+    position: absolute;
+    top: 60vh;
+    left: 12vw;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 12px;
+    background-color: aquamarine;
+}
+
+.img1 {
+    position: absolute;
+    right: 1%;
+    bottom: 10%;
+}
